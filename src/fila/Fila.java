@@ -6,7 +6,7 @@ public class Fila implements EstruturaDados {
 
     @Override
     public void adicionar(Pessoa pessoa) {
-        if (this.listFila.length == qtd+1) {
+        if (this.listFila.length == qtd-1) {
             this.aumentarCapacidade();
         }
         int cont = qtd;
