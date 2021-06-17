@@ -1,6 +1,7 @@
 package ordenacao;
 
 class MergeSort{
+
     void mergeList(int mergeList[], int esquerdaR, int meio, int direitaR){
         // "divide" a array em 2, para depois serem mescladas
         int num1 = meio - esquerdaR + 1;
@@ -55,7 +56,6 @@ class MergeSort{
             mergeList(mergeList, esquerda, meio, direita);
         }
     }
-
     // Ira fazer a impressão dos valores, independente do tamanho da array
     static void listarTudo(int[] mergeList){
         System.out.print("Lista ordenada com Merge Sort: ");

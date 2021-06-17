@@ -1,7 +1,8 @@
 package ordenacao;
 
 public class BubbleSort{
-    private final int[] bubbleList = {12, 15, 19, 1, 7, 0, 4, 17, 8, 6};
+
+    private final int[] bubbleList = {14, 11, 9, 1, 17, 0, 2, 5, 13, 6};
 
     public void selectionList(){
         int num = bubbleList.length;

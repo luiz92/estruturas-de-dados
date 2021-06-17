@@ -1,9 +1,10 @@
 package ordenacao;
 
 class SelectionSort{
+
     private final int[] sortList = {5, 19, 14, 2, 8, 6, 9, 0, 11, 13};
 
-    public void selectionList(int sortList[]){
+    public void selectionList(){
         for (int i = 0; i < sortList.length-1; i++){ // Percorre indice por indice
             int menorIndice = i;
             for (int x = i+1; x < sortList.length; x++) { // Verifica se o indice menor do que os outros
