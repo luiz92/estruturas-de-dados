@@ -1,12 +1,13 @@
 package fila;
 
 public class Fila implements EstruturaDados {
-    private Pessoa[] listFila = new Pessoa[10];
+    private Pessoa[] listFila = new Pessoa[4];
     private int qtd = 0;
 
     @Override
     public void adicionar(Pessoa pessoa) {
-        if (this.listFila.length == qtd-1) {
+        System.out.println(listFila.length);
+        if (this.listFila.length == qtd) {
             this.aumentarCapacidade();
         }
         int cont = qtd;

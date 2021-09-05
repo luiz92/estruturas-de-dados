@@ -13,6 +13,7 @@ public class Aplicacao {
         listFila.adicionar(pessoa1);
         listFila.adicionar(pessoa2);
         listFila.adicionar(pessoa3);
+        listFila.adicionar(pessoa4);
                 System.out.println();
         listFila.listarTodos();
         listFila.buscar("pedro");
